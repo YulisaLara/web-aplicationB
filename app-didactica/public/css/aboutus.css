@@ -1,0 +1,101 @@
+/* Estilo para el título principal */
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilo para las tarjetas */
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilo para el encabezado (navbar) */
+.navbar {
+    background-color: #ffcc00; /* Color de fondo del encabezado */
+    border-bottom: 2px solid #ff9900; /* Borde inferior con un color más oscuro */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Color de texto del logo en el encabezado */
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* Color de texto de los enlaces en el encabezado */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff9900; /* Color de texto al pasar el cursor por encima de los enlaces */
+}
+
+/* Estilo para el contenido principal */
+.container {
+    text-align: center;
+    padding: 10px;
+}
+p {
+    text-align: justify;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff9900; /* Color de título principal */
+}
+
+.btn-primary {
+    background-color: #ff9900; /* Color de fondo del botón primario */
+    color: #fff; /* Color de texto del botón primario */
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff6600; /* Color de fondo al pasar el cursor por encima */
+}
+
+/* Estilo para el pie de página (footer) */
+.footer {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed; /* Fija el footer en la parte inferior de la ventana */
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+}
+
+/* Estilo para el SVG */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+

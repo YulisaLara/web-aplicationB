@@ -1,0 +1,51 @@
+/* Estilo para las tarjetas en el dashboard */
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #ff9900;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff6600;
+}
+
+/* Estilo para el pie de página */
+.footer {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed; /* Fija el footer en la parte inferior de la ventana */
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+}
